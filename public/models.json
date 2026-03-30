@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "Basic ATS optimization", "Export to PDF"],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools for crafting high-impact resumes.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF & DOCX"],
+    "icon": "award"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "All-in-one package for job seekers aiming for top companies.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Unlimited resumes", "Cover letter builder", "LinkedIn optimization"],
+    "icon": "rocket"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning online portfolios with ease.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Custom domains", "Drag & drop editor", "Responsive design"],
+    "icon": "layout"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Toolkit",
+    "description": "Prepare for interviews with AI-driven insights.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Mock interviews", "Common Q&A", "Performance feedback"],
+    "icon": "message-circle"
+  },
+  {
+    "id": 6,
+    "name": "ATS Optimizer Pro",
+    "description": "Ensure your resume passes applicant tracking systems.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Keyword suggestions", "Resume scoring", "Job matching"],
+    "icon": "check-circle"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Profile Kit",
+    "description": "Optimize your freelance profiles to attract more clients.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Profile templates", "SEO tips", "Client proposal samples"],
+    "icon": "briefcase"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Job Hunter Pack",
+    "description": "Everything you need to land your dream job.",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Resume + Cover Letter", "Interview prep", "Portfolio builder"],
+    "icon": "star"
+  }
+]
