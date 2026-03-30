@@ -9,12 +9,12 @@ const RatingBaner = () => {
                 <p className='leading-[1.2] font-extrabold text-[60px] not-italic font-[Manrope]'>50K+</p>
                 <p className='leading-[1.2] font-medium text-[24px] not-italic font-[Manrope]'>Active Users</p>
               </div>
-              <div class="h-[80px] w-px bg-white flex justify-center mt-3"></div>
+              <div className="h-[80px] w-px bg-white flex justify-center mt-3"></div>
               <div>
                 <p className='leading-[1.2] font-extrabold text-[60px] not-italic font-[Manrope]'>200+</p>
                 <p className='leading-[1.2] font-medium text-[24px] not-italic font-[Manrope]'>Premium Tools</p>
               </div>
-              <div class="h-[80px] w-px bg-white flex justify-center mt-3" ></div>
+              <div className="h-[80px] w-px bg-white flex justify-center mt-3" ></div>
               <div>
                 <p className='leading-[1.2] font-extrabold text-[60px] not-italic font-[Manrope]'>4.9</p>
                 <p className='leading-[1.2] font-medium text-[24px] not-italic font-[Manrope]'>Rating</p>
