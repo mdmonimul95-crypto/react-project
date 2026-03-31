@@ -7,7 +7,7 @@ const NavBar = ({carts}) => {
     return (
     <>
     
-      <div className='flex justify-between items-center sticky mx-auto  top-0 bg-white px-4  sm:px-5 md:px-10 lg:px-[150px] pt-5 pb-5  '>
+      <div className=' z-999 flex justify-between items-center sticky mx-auto  top-0 bg-white px-4  sm:px-5 md:px-10 lg:px-[150px] pt-5 pb-5  '>
       <div className='flex items-center p-0.5  pt-1 '><a className="flex  items-center w-[100px]  sm:w-auto"><img src={pic} alt="my pic" /></a></div>  
       <div className='hidden min-[1200px]:flex justify-between items-center gap-3'>
         <p className="font-['Manrope'] font-semibold text-[16px]">Products</p>

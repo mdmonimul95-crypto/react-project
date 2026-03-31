@@ -10,6 +10,7 @@ import ToolsBarSection from './component/ToolsBarSection'
 import Cart from './component/Cart'
 import GetStart from './component/getStart'
 import Transparent from './component/Transparent'
+import Footer from './component/Footer'
 
 
 const getModels = async() => {
@@ -67,6 +68,7 @@ function App() {
       <Cart setCarts={setCarts}  carts={carts}/> }
       <GetStart/>
       <Transparent/>
+      <Footer/>
     </>
   )
 }

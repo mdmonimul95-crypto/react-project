@@ -21,7 +21,7 @@ const Transparent = () => {
                       <div className='flex gap-1'><img src={checkpng} alt="check" /><p>1 project per month</p></div>
                       
                      </div>
-                     <button className="font-bold text-[16px] not-italic font-manrope px-3 w-full flex justify-center items-center   py-2 mt-15 rounded-full bg-gradient-to-b from-[#4F39F6] to-[#9514FA] text-white">Get Started Free</button>
+                     <button className="font-bold text-[16px] not-italic font-manrope px-3 w-full flex justify-center items-center   py-2 md:mt-15 mb-5 rounded-full bg-gradient-to-b from-[#4F39F6] to-[#9514FA] text-white">Get Started Free</button>
                   </div>
                    <div className='bg-gradient-to-b from-[#4F39F6] to-[#9514FA] text-white space-y-4 px-5 py-8 border-2 border-blue-300 shadow-xl rounded-xl'>
                      <div className='space-y-2'><p className="leading-[1.2] font-bold text-[24px] not-italic  font-manrope">Pro</p><p className="leading-[1.25] font-normal text-[16px] not-italic  font-manrope">Best for professionals</p><p className=" relative top-[-115px] left-17 font-medium text-[14px] not-italic text-[#BB4D00] bg-[#FEF3C6] font-manrope px-3 py-2 rounded-full w-fit">Most Popular</p></div>
