@@ -8,6 +8,7 @@ import NavBar from './component/NavBar'
 import RatingBaner from './component/RatingBaner'
 import ToolsBarSection from './component/ToolsBarSection'
 import Cart from './component/Cart'
+import GetStart from './component/getStart'
 
 const getModels = async() => {
   const res = await fetch("/models.json")
@@ -27,7 +28,7 @@ function App() {
      <RatingBaner/>
      <ToolsBarSection/>
      {/* name of each tab group should be unique */}
- <div className="tabs flex justify-center items-center my-[20px]">
+     <div className="tabs flex justify-center items-center my-[20px]">
    <label
   className={`cursor-pointer ${
     selectedType === "Products"
@@ -59,9 +60,10 @@ function App() {
   Cart ({carts.length})
 </label>
   
- </div>
+     </div>
      {selectedType === "Products" ? <Models modelPromise={modelPromise}  carts={carts} setCarts={setCarts} /> :
       <Cart setCarts={setCarts}  carts={carts}/> }
+      <GetStart/>
     </>
   )
 }
