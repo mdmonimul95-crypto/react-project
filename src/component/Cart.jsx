@@ -1,5 +1,6 @@
 import React from 'react';
 import empty from '../../assets/products/shopping-new.png'
+import { toast } from 'react-toastify';
 
 const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => {
@@ -9,12 +10,14 @@ const Cart = ({ carts, setCarts }) => {
 
   const handlePayment = () => {
     setCarts([]);
+    toast.success("Payement successful!")
   };
 
   const handleDelete = (item) => {
     const filteredArray = carts.filter(allude => allude.id !== item.id);
     setCarts(filteredArray);
-    console.log(filteredArray);
+    toast.error("item deleted!")
+    // console.log(filteredArray);
   };
 
   return (

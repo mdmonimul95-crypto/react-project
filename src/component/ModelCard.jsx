@@ -2,12 +2,14 @@
 import { useState } from 'react';
 import check from '../../assets/products/Check.png'
 import checkIt from '../../assets/products/Check.png'
+import { toast } from 'react-toastify';
 
 const ModelCard = ({model,carts,setCarts}) => {
     const [isBuy,setIsBuy] = useState(false)
     const handleBuy = () => {
          setIsBuy(true);
          setCarts([...carts , model]);
+         toast.success("added to carts")
     }
     return (
         
