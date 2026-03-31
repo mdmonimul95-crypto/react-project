@@ -3,12 +3,14 @@
 import { useState } from 'react'
 import './App.css'
 import BanarSection from './component/BanarSection'
-import Models from './component/Models'
+import Models from './component/models'
 import NavBar from './component/NavBar'
 import RatingBaner from './component/RatingBaner'
 import ToolsBarSection from './component/ToolsBarSection'
 import Cart from './component/Cart'
 import GetStart from './component/getStart'
+import Transparent from './component/Transparent'
+
 
 const getModels = async() => {
   const res = await fetch("/models.json")
@@ -64,6 +66,7 @@ function App() {
      {selectedType === "Products" ? <Models modelPromise={modelPromise}  carts={carts} setCarts={setCarts} /> :
       <Cart setCarts={setCarts}  carts={carts}/> }
       <GetStart/>
+      <Transparent/>
     </>
   )
 }
