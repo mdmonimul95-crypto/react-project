@@ -5,13 +5,13 @@ import playpng from '../../assets/products/Play.png';
 
 const BanarSection = () => {
     return (
-        <div className=' pb-10 sm:flex justify-between lg:mx-[150px] max-[425px]:w-3xl mx-10 sm:my-[60px] gap-[10px]  '>
+        <div className=' pb-10  max-[500px]:mt-[30px] sm:flex justify-between lg:mx-[150px] max-[500px]:mx-[30px] mx-10 sm:my-[60px] gap-[10px]  '>
             <div className='flex-1 flex flex-col items-start justify-center lg:w-[640px]'>
                 <div className='flex justify-between items-center gap-[5px] bg-[#e1e7ff] px-[16px] py-[8px] rounded-3xl'>
                     <div><img src={group5} alt="group5logo" /></div>
                     <div className="not-italic font-medium text-base font-['Manrope'] text-transparent bg-clip-text bg-gradient-to-b from-[#4f39f6] to-[#9514fa]">New: AI-Powered Tools Available</div>
                 </div>
-                <div className='not-italic font-bold text-[60px] leading-[1.1667] text-[#101727] font-manrope  '>Supercharge Your Digital Workflow</div>
+                <div className='not-italic font-bold  max-[500px]:text-[30px] text-[60px] leading-[1.1667] text-[#101727] font-manrope  '>Supercharge Your Digital Workflow</div>
                 <div className='pt-5 not-italic font-normal text-[17px] text-[#627382] font-manrope'>Access premium AI tools, design assets, templates, and productivity
                   software—all in one place. Start creating faster today.<br></br>
                   Explore Products

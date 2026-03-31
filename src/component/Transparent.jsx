@@ -5,7 +5,7 @@ import checkw from '../../assets/products/check white.png'
 const Transparent = () => {
     return (
         <>
-               <div className='space-y-[40px] lg:mx-[200px] md:mx-[150px] sm:mx-[50px] lg:mb-[120px] mx-20px' >
+               <div className='space-y-[40px] lg:mx-[200px] md:mx-[150px] max-[500px]:pt-[70px] sm:mx-[50px] lg:mb-[120px] mx-20px' >
                 <div className='space-y-3 max-md:mx-8 text-center'>
                   <div className="flex justify-center items-center text-center leading-[1.2] font-bold text-5xl font-manrope text-[#101727]">Simple, Transparent Pricing</div>
                   <div className="flex justify-center items-center font-normal text-[16px] font-manrope text-[#627382]">Choose the plan that fits your needs. Upgrade or downgrade anytime.</div>

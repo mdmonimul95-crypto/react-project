@@ -18,29 +18,29 @@ const Cart = ({ carts, setCarts }) => {
   };
 
   return (
-    <div className='mx-[120px] my-[50px] shadow-2xl border-2 space-y-4 rounded-xl px-8 border-gray-200'>
+    <div className='md:mx-[120px] mx-[30px] my-[50px] shadow-2xl border-2 space-y-4 rounded-xl px-8 border-gray-200'>
       <h1 className="font-bold text-[24px] font-manrope text-[#101727]">Your Cart</h1>
 
       {carts.length > 0 ? (
         <>
           {carts.map(item => (
             <div key={item.id} className='bg-gray-300 flex justify-between rounded-xl'>
-              <div className='mx-4 flex gap-3 items-center'>
+              <div className='md:mx-4 mx-2 flex gap-3 items-center'>
                 <div>
                   <img
-                    className='bg-white p-3 w-20 h-20 rounded-full object-contain'
+                    className='bg-white p-1 md:p-3 w-10 md:w-20 h-10 lg:h-20 rounded-full object-contain'
                     src={item.icon}
                     alt="iconpic"
                   />
                 </div>
                 <div>
-                  <div className="font-semibold text-[20px] not-italic text-[#101727] font-manrope">{item.name}</div>
-                  <div className="font-medium text-[16px] not-italic text-[#627382] font-manrope">{item.price}</div>
+                  <div className="md:font-semibold font-medium max-[500px]:text-[12px] text-[20px] not-italic text-[#101727] font-manrope">{item.name}</div>
+                  <div className="md:font-semibold font-medium max-[500px]:text-[10px] text-[16px] not-italic text-[#627382] font-manrope">{item.price}</div>
                 </div>
               </div>
               <button
                 onClick={() => handleDelete(item)}
-                className="mx-2 flex items-center leading-[1.2] font-bold text-[16px] not-italic text-[#ff3980] font-manrope"
+                className="mx-2 flex items-center leading-[1.2] md:font-bold font-medium max-[500px]:text-[12px] text-[16px] not-italic text-[#ff3980] font-manrope"
               >
                 Remove
               </button>

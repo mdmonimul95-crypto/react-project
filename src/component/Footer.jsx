@@ -6,7 +6,7 @@ import x from '../../assets/products/Twitter.png'
 const Footer = () => {
     return (
         <div className='bg-black text-white'>
-         <div className='lg:px-[200px] md:px-[100px] lg:pb-[50px]  space-y-15 px-60px pt-100px lg:pt-[120px]  '>
+         <div className='lg:px-[200px] md:px-[100px] lg:pb-[50px]  space-y-15 px-60px max-[500px]:pt-[70px] lg:pt-[120px]  '>
             <div className='grid grid-cols-1 max-md:px-8 md:grid-cols-2 gap-7 pb-[10px] lg:grid-cols-3 '>
                <div className='space-y-3'>
                  <div className="font-bold text-[36px]  font-manrope">DigiTools</div>
@@ -46,9 +46,9 @@ const Footer = () => {
                  </div>
                </div>                    
             </div>
-            <div className='flex justify-between'>
+            <div className='grid grid-cols-1 md:grid-cols-2 max-[500px]:px-7  max-[500px]:text-center'>
                 <div>© 2026 Digitools. All rights reserved.</div>
-                <div className='flex gap-6'>
+                <div className='flex gap-6 max-[500px]:text-center items-center justify-center'>
                     <p>Privacy Policy </p>
                     <p> Terms of Service</p>
                     <p>   Cookies</p>
