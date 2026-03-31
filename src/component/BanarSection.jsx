@@ -5,8 +5,8 @@ import playpng from '../../assets/products/Play.png';
 
 const BanarSection = () => {
     return (
-        <div className=' pb-10 sm:flex justify-between sm:mx-[150px] max-[425px]:w-3xl mx-10 sm:my-[60px] gap-[10px]  '>
-            <div className='flex-1 flex flex-col items-start justify-center w-[640px]'>
+        <div className=' pb-10 sm:flex justify-between lg:mx-[150px] max-[425px]:w-3xl mx-10 sm:my-[60px] gap-[10px]  '>
+            <div className='flex-1 flex flex-col items-start justify-center lg:w-[640px]'>
                 <div className='flex justify-between items-center gap-[5px] bg-[#e1e7ff] px-[16px] py-[8px] rounded-3xl'>
                     <div><img src={group5} alt="group5logo" /></div>
                     <div className="not-italic font-medium text-base font-['Manrope'] text-transparent bg-clip-text bg-gradient-to-b from-[#4f39f6] to-[#9514fa]">New: AI-Powered Tools Available</div>
@@ -26,7 +26,7 @@ const BanarSection = () => {
                     
                 </div>
             </div>
-            <div className='py-[40px] w-[500px] h-[590px]' ><img src={banarpic} alt="banarpic" /></div>
+            <div className='py-[40px] w-full lg:w-[500px] h-[590px]' ><img src={banarpic} alt="banarpic" /></div>
         </div>
     );
 };

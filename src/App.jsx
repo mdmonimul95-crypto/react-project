@@ -22,14 +22,42 @@ function App() {
 
   return (
     <>
-     <NavBar/>
+     <NavBar carts={carts}/>
      <BanarSection/>
      <RatingBaner/>
      <ToolsBarSection/>
      {/* name of each tab group should be unique */}
  <div className="tabs flex justify-center items-center my-[20px]">
-  <input type="radio" onClick={()=>setSelected("Products")} name="my_tabs_1" className={`tab ${selectedType ==="Products" ? "bg-[#4F39F6] py-0.5 text-white rounded-full" : "bg-gray-300 text-black py-0.5 rounded-full"} `} aria-label="Products" defaultChecked/>
-  <input type="radio" onClick={()=>setSelected("Cart")} name="my_tabs_1" className={`tab ${selectedType ==="Cart" ? "bg-[#4F39F6] py-0.5 text-white rounded-full" : "bg-gray-300 text-black py-0.5 px-4  rounded-full"} `} aria-label="Cart (2)"  />
+   <label
+  className={`cursor-pointer ${
+    selectedType === "Products"
+      ? "bg-[#4F39F6] text-white"
+      : "bg-gray-300 text-black"
+  } py-2 font-semibold flex justify-center items-center text-[20px] font-manrope px-4 rounded-full`}
+>
+  <input
+    type="radio"
+    name="my_tabs_1"
+    onClick={() => setSelected("Products")}
+    className="hidden"
+  />
+  Products
+</label>
+  <label
+  className={`cursor-pointer ${
+    selectedType === "Cart"
+      ? "bg-[#4F39F6] text-white"
+      : "bg-gray-300 text-black"
+  } py-2 font-semibold flex justify-center items-center text-[20px] font-manrope px-4 rounded-full`}
+>
+  <input
+    type="radio"
+    name="my_tabs_1"
+    onClick={() => setSelected("Cart")}
+    className="hidden"
+  />
+  Cart ({carts.length})
+</label>
   
  </div>
      {selectedType === "Products" ? <Models modelPromise={modelPromise}  carts={carts} setCarts={setCarts} /> :
